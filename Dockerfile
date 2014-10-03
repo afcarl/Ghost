@@ -28,8 +28,8 @@ config = {\n\
                 filename: path.join(__dirname, "/content/data/ghost.db")\n\
             },\n\
             debug: false\n\
-        },\n\
-\n\
+        },\n\' > config.js
+RUN echo '\n\
         server: {\n\
             // Host to be passed to node's \`net.Server#listen()\`\n\
             host: "0.0.0.0",\n\
@@ -40,5 +40,5 @@ config = {\n\
 };\n\
 \n\
 // Export config\n\
-module.exports = config;' > config.js
+module.exports = config;' >> config.js
 CMD nave use stable npm start
