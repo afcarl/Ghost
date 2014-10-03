@@ -28,7 +28,7 @@ config = {\n\
                 filename: path.join(__dirname, "/content/data/ghost.db")\n\
             },\n\
             debug: false\n\
-        },\n\' > config.js
+        },\n' > config.js
 RUN echo '\n\
         server: {\n\
             // Host to be passed to nodes \`net.Server#listen()\`\n\
