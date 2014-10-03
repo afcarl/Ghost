@@ -31,7 +31,7 @@ config = {\n\
         },\n\' > config.js
 RUN echo '\n\
         server: {\n\
-            // Host to be passed to nodes \`net.Server#listen\()\`\n\
+            // Host to be passed to nodes \`net.Server#listen()\`\n\
             host: "0.0.0.0",\n\
             // Port to be passed to nodes \`net.Server#listen()\`, for iisnode set this to \`process.env.PORT\`\n\
             port: "80"\n\
