@@ -1,5 +1,5 @@
 FROM dockerimages/docker-nave:latest
-ADD . /ghost2
+# ADD . /ghost2
 RUN git clone https://github.com/TryGhost/Ghost.git
 WORKDIR /Ghost
 RUN nave use stable npm install -g grunt-cli \
