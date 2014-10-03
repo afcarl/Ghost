@@ -41,4 +41,4 @@ RUN echo '\n\
 \n\
 // Export config\n\
 module.exports = config;' >> config.js
-CMD ["/usr/bin/nave" "use" "stable" "npm" "start"]
+CMD /usr/bin/nave use stable npm start
